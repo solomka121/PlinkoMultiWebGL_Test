@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity Web Player | RNG Build Piko</title>
+    <title>Unity Web Player | RNG Pinko Planner</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="manifest" href="manifest.webmanifest">
   </head>
   <body>
     <div id="unity-container">
-      <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=900 height=600 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -57,16 +57,16 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/BuildRNGH 01.loader.js";
+      var loaderUrl = buildUrl + "/Build1.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/BuildRNGH 01.data",
-        frameworkUrl: buildUrl + "/BuildRNGH 01.framework.js",
-        codeUrl: buildUrl + "/BuildRNGH 01.wasm",
+        dataUrl: buildUrl + "/Build1.data.br",
+        frameworkUrl: buildUrl + "/Build1.framework.js.br",
+        codeUrl: buildUrl + "/Build1.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Solma",
-        productName: "RNG Build Piko",
-        productVersion: "0.1",
+        productName: "RNG Pinko Planner",
+        productVersion: "1",
         showBanner: unityShowBanner,
       };
 

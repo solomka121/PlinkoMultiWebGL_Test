@@ -1,9 +1,9 @@
-const cacheName = "Solma-RNG Build Piko-0.1";
+const cacheName = "Solma-RNG Pinko Planner-1";
 const contentToCache = [
-    "Build/BuildRNGH 01.loader.js",
-    "Build/BuildRNGH 01.framework.js",
-    "Build/BuildRNGH 01.data",
-    "Build/BuildRNGH 01.wasm",
+    "Build/Build1.loader.js",
+    "Build/Build1.framework.js.br",
+    "Build/Build1.data.br",
+    "Build/Build1.wasm.br",
     "TemplateData/style.css"
 
 ];
